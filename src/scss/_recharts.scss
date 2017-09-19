@@ -1,0 +1,47 @@
+@import "./variables.scss";
+@import "../../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss";
+
+@include breakpoint($xss) {
+  .chartContainer {
+    width: 20em;
+    height: 10em;
+  }
+}
+
+@include breakpoint($xs) {
+  .chartContainer {
+    width: 30em;
+    height: 15em;
+  }
+  .radarContainer {
+    width: 30em;
+    height: 20em;
+  }
+}
+
+@include breakpoint(($sm), ($md)) {
+  .chartContainer {
+    width: 35em;
+    height: 17.5em;
+  }
+  .radarContainer {
+    width: 35em;
+    height: 30em;
+  }
+}
+
+@include breakpoint($lg) {
+  .chartContainer {
+    width: 40em;
+    height: 20em;
+  }
+  .radarContainer {
+    width: 40em;
+    height: 30em;
+  }
+}
+
+
+.recharts-default-legend {
+  color: $paleyellow;
+}
