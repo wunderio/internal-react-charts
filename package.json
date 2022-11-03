@@ -9,7 +9,7 @@
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "breakpoint-sass": "^2.7.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
     "gulp-rename": "^1.2.2",
